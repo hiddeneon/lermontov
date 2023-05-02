@@ -3,28 +3,28 @@
 }
 
 .header {
-  display: flex;
   align-items: center;
-  height: 12vh;
   background-color: black;
+  display: flex;
+  height: 12vh;
 }
 
 .header ul {
+  align-items: center;
+  border: white 1px solid;
   display: flex;
   flex-direction: row;
-  align-items: center;
   list-style-type: none;
-  border: white 1px solid;
   width: 50vw;
 }
 
 .header ul li a {
+  border: red 1px solid;
   color: white;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 1.6rem;
-  text-decoration: none;
-  border: red 1px solid;
   margin: 0 1.5vw;
+  text-decoration: none;
   transition: .2s;
 }
 
