@@ -31,9 +31,15 @@
 
 .header ul li a:hover {
   color: white;
-  text-shadow: none;
+  text-shadow: 0px 0px 5px gainsboro;
 }
 
 .header img {
   height: 12vh;
+}
+
+.verse-container {
+  text-align: center;
+  border: solid black 1px;
+  margin-top: 5vh;
 }
