@@ -20,7 +20,8 @@
 
 .header ul li a {
   border: red 1px solid;
-  color: white;
+  color: gainsboro;
+  text-shadow: 0px 0px 10px gainsboro;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 1.6rem;
   margin: 0 1.5vw;
@@ -29,7 +30,8 @@
 }
 
 .header ul li a:hover {
-  text-shadow: 0 0 5px rgba(0,0,0,0.5);;
+  color: white;
+  text-shadow: none;
 }
 
 .header img {
