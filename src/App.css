@@ -43,3 +43,7 @@
   border: solid black 1px;
   margin-top: 5vh;
 }
+
+.verse-container p {
+  margin: .8rem 0;
+}
