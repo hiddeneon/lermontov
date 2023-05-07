@@ -15,9 +15,8 @@ export default function App() {
 
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="stikhi" element={<Stikhi />}>
-        <Route path="predskazanie" element={<Stikh />} />
-        </Route>
+        <Route path="stikhi" element={<Stikhi />} />
+        <Route path="stikhi/:verseId" element={<Stikh />} />
         <Route path="proza" element={<Proza />} />
         <Route path="bio" element={<Bio />} />
         <Route path="*" element={<NoPage />} />

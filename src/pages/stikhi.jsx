@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, Outlet } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 export default function Stikhi() {
 
@@ -11,7 +11,6 @@ export default function Stikhi() {
                     <li><Link to="vetka-palestiny">Ветка Палестины</Link></li>
                 </ul>
             </div>
-            <Outlet />
         </>
     );
 };
