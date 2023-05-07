@@ -39,9 +39,11 @@
 }
 
 .verse-container {
-  text-align: center;
+  text-align: center  ;
   border: solid black 1px;
   margin-top: 5vh;
+  background-color: antiquewhite;
+  white-space: pre-line;
 }
 
 .verse-container p {

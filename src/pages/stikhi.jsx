@@ -9,6 +9,7 @@ export default function Stikhi() {
                 <ul>
                     <li><Link to="predskazanie">Предсказание</Link></li>
                     <li><Link to="vetka-palestiny">Ветка Палестины</Link></li>
+                    <li><Link to="uznik">Узник</Link></li>
                 </ul>
             </div>
         </>
