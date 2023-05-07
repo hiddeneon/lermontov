@@ -4,6 +4,7 @@ import Stikhi from './pages/stikhi';
 import Proza from './pages/proza';
 import NoPage from "./pages/NoPage";
 import Layout from "./components/Layout";
+import Footer from "./components/Footer";
 import Bio from "./pages/Bio";
 import Home from "./pages/Home";
 import Stikh from "./pages/stikh-interface";
@@ -21,6 +22,8 @@ export default function App() {
         <Route path="bio" element={<Bio />} />
         <Route path="*" element={<NoPage />} />
       </Routes>
+
+      <Footer />
     </>
   );
 };
