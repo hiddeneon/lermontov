@@ -47,7 +47,6 @@ body {
 .verse-container {
   text-align: center  ;
   border: solid black 1px;
-  margin-top: 5vh;
   background-color: antiquewhite;
   white-space: pre-line;
 }
@@ -63,5 +62,5 @@ body {
   position: absolute;
   bottom: 0;
   width: 100%;
-  height: 2.5rem;
+  height: 12vh;
 }

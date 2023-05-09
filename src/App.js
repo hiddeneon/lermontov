@@ -10,6 +10,7 @@ import Home from "./pages/Home";
 import Stikh from "./pages/stikh-interface";
 
 export default function App() {
+
   return (
     <>
       <Layout />

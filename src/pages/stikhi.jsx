@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import poemsData from "../data/poemsData.json";
 
 export default function Stikhi() {
 
@@ -7,9 +8,11 @@ export default function Stikhi() {
         <>
             <div className="list-of-verses">
                 <ul>
-                    <li><Link to="predskazanie">Предсказание</Link></li>
-                    <li><Link to="vetka-palestiny">Ветка Палестины</Link></li>
-                    <li><Link to="uznik">Узник</Link></li>
+                    {poemsData.map(({ id, title, URLTitle }) => (
+                        <li key={id}>
+                            <Link to={URLTitle}>{title}</Link>
+                        </li>
+                    ))}
                 </ul>
             </div>
         </>
