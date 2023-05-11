@@ -9,7 +9,7 @@ export default function Layout() {
             <div className="header">
                 <Link to="/"><img src={logo} alt="Logo" /></Link>
                 <ul>
-                    <li>
+                    <li id="stikhi-header-id">
                         <Link to="/stikhi">стихи</Link>
                     </li>
                     <li>

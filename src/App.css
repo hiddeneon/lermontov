@@ -5,6 +5,8 @@
 body {
   min-height: 100vh;
   position: relative;
+  display: flex;
+  flex-direction: column;
 }
 
 .header {
@@ -42,13 +44,53 @@ body {
 
 .header img {
   height: 12vh;
+  pointer-events: none;
+}
+
+.verse-content-body {
+  display: flex;
+  justify-content: center;
+}
+
+.verse-list-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.list-of-verses {
+  width: fit-content;
+  border: red 1px solid;
+}
+
+.list-of-verses ul {
+  list-style-type: none;
+}
+
+.list-of-verses ul li a{
+  text-decoration: none;
+  color: #777;
+}
+
+.list-of-verses ul li a:hover {
+  color: cornflowerblue;
+  transition: 0.2s;
 }
 
 .verse-container {
-  text-align: center  ;
-  border: solid black 1px;
+  text-align: left;
   background-color: antiquewhite;
   white-space: pre-line;
+  width: fit-content;
+}
+
+.verse-list-container,
+.verse-container,
+.bio-container,
+.proza-list,
+.nopage,
+.home-container {
+  min-height: 76vh;
 }
 
 .verse-container p {
@@ -57,10 +99,50 @@ body {
 
 .footer {
   display: flex;
+  align-items: center;
   color: white;
   background-color: black;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
   height: 12vh;
+  padding: 0 2rem;
+}
+
+.footer ul {
+  list-style-type: none;
+}
+
+.year {
+  width: calc(50vw - 2rem);
+}
+
+.footer p {
+  position: relative;
+  cursor: default;
+  width: fit-content;
+  font-size: 1.4rem;
+}
+
+.footer p:hover {
+  text-shadow: 1px 0px 8px white;
+}
+
+.footer-content {
+  width: calc(100vw - 4rem);
+  display: flex;
+}
+
+.about {
+  width: calc(50vw - 2rem);
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.footer ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.footer ul li a:hover {
+  color: red;
 }
