@@ -7,11 +7,11 @@ export default function Stikh() {
     let { verseId } = useParams();
 
     return (
-        <>
+        <div className="verse-content-body">
             <div className="verse-container">
                 <h2>{poemsData[poemsData.findIndex(({ URLTitle }) => URLTitle === verseId)].title}</h2>
                 <p>{poemsData[poemsData.findIndex(({ URLTitle }) => URLTitle === verseId)].poem}</p>
             </div>
-        </>
+        </div>
     );
 };
