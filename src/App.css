@@ -15,6 +15,7 @@ body {
   display: flex;
   height: 12vh;
   position: sticky;
+  top: 0;
 }
 
 .header ul {
@@ -49,7 +50,8 @@ body {
 
 .verse-content-body {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .verse-list-container {
