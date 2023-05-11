@@ -8,8 +8,8 @@ export default function Stikh() {
 
     return (
         <div className="verse-content-body">
+            <h2>{poemsData[poemsData.findIndex(({ URLTitle }) => URLTitle === verseId)].title}</h2>
             <div className="verse-container">
-                <h2>{poemsData[poemsData.findIndex(({ URLTitle }) => URLTitle === verseId)].title}</h2>
                 <p>{poemsData[poemsData.findIndex(({ URLTitle }) => URLTitle === verseId)].poem}</p>
             </div>
         </div>
