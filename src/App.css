@@ -55,11 +55,12 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: blue solid 2px;
 }
 
 .verse-content-body h1 {
   font-family: 'PT Sans Caption', sans-serif;
+  font-size: 4rem;
+  margin-top: 5vh;
 }
 
 .verse-list-container {
@@ -87,15 +88,53 @@ body {
   transition: 0.2s;
 }
 
-.verse-and-title {
-  border: lightcoral solid 2px;}
+.verse-panel {
+  margin-top: 5vh;
+  display: flex;
+  flex-direction: row;
+}
 
 .verse-container {
-  text-align: left;
   background-color: antiquewhite;
   white-space: pre-line;
-  width: fit-content;
+  width: 80vw;
   font-size: 1.3rem;
+  display: flex;
+  justify-content: center;
+}
+
+.verse-container p {
+  margin: .8rem 0;
+}
+
+.verse-body {
+  text-align: left;
+}
+
+.nav-button {
+  width: 10vw;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-button button {
+  position: sticky;
+  top: 45vh;
+  border-radius: 100%;
+  border: none;
+  background-color: transparent;
+  margin: 0;
+}
+
+.nav-button button:hover {
+  cursor: pointer;
+  background-color: #F0F0F0;
+}
+
+.nav-button button img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .verse-list-container,
@@ -107,9 +146,7 @@ body {
   min-height: 76vh;
 }
 
-.verse-container p {
-  margin: .8rem 0;
-}
+
 
 .footer {
   display: flex;
