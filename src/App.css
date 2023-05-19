@@ -117,6 +117,10 @@ body {
   justify-content: center;
 }
 
+.nav-button:hover {
+  background-color: aliceblue;
+}
+
 .nav-button button {
   position: sticky;
   top: 45vh;
@@ -124,6 +128,7 @@ body {
   border: none;
   background-color: transparent;
   margin: 0;
+  height: fit-content;
 }
 
 .nav-button button:hover {
@@ -145,8 +150,6 @@ body {
 .home-container {
   min-height: 76vh;
 }
-
-
 
 .footer {
   display: flex;
