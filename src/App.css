@@ -88,6 +88,12 @@ body {
   transition: 0.2s;
 }
 
+.verse-content-body h1 {
+  padding: 0 3vh;
+  font-size: 6vw;
+  text-size-adjust: auto;
+}
+
 .verse-panel {
   margin-top: 5vh;
   display: flex;
