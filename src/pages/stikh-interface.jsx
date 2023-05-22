@@ -5,6 +5,7 @@ import useDocumentTitle from "../useDocumentTitle";
 import leftArrow from "../img/left-arrow.png";
 import rightArrow from "../img/right-arrow.png";
 import NavButton from "../components/NavButton";
+import VerseContainer from "../components/VerseContainer";
 
 export default function Stikh() {
 
@@ -30,11 +31,7 @@ export default function Stikh() {
             <p>{verseElementNumber}</p>
             <div className="verse-panel">
                 <NavButton verseElementNumber={verseElementNumber} poemsData={poemsData} arrow={previous} />
-                <div className="verse-container">
-                    <div className="verse-body">
-                        <p>{poemsData[verseElementNumber].poem}</p>
-                    </div>
-                </div>
+                <VerseContainer poemsData={poemsData} verseElementNumber={verseElementNumber} />
                 <NavButton verseElementNumber={verseElementNumber} poemsData={poemsData} arrow={next} />
             </div>
         </div>
