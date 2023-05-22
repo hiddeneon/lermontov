@@ -28,7 +28,7 @@ export default function Stikh() {
     return (
         <div className="verse-content-body">
             <h1>{poemsData[verseElementNumber].title}</h1>
-            <p>{verseElementNumber}</p>
+            <p>{poemsData[verseElementNumber].subtitle}</p>
             <div className="verse-panel">
                 <NavButton verseElementNumber={verseElementNumber} poemsData={poemsData} arrow={previous} />
                 <VerseContainer poemsData={poemsData} verseElementNumber={verseElementNumber} />
