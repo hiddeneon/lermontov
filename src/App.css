@@ -147,6 +147,11 @@ body {
   filter: none;
 }
 
+.nav-button button img:active {
+  filter: invert(40%);
+  transition: 0s;
+}
+
 .verse-list-container,
 .verse-container,
 .bio-container,
