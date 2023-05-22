@@ -29,7 +29,6 @@ export default function Stikh() {
         <div className="verse-content-body">
             <h1 style={{fontSize: poemsData[verseElementNumber].title.length > 20 ? "4vw" : ""}}>{poemsData[verseElementNumber].title}</h1>
             <p>{poemsData[verseElementNumber].subtitle}</p>
-            <p>{poemsData[verseElementNumber].title.length}</p>
             <div className="verse-panel">
                 <NavButton verseElementNumber={verseElementNumber} poemsData={poemsData} arrow={previous} />
                 <VerseContainer poemsData={poemsData} verseElementNumber={verseElementNumber} />

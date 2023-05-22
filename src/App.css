@@ -94,6 +94,10 @@ body {
   text-size-adjust: auto;
 }
 
+.verse-content-body p {
+  margin-top: 3vh;
+}
+
 .verse-panel {
   margin-top: 5vh;
   display: flex;
