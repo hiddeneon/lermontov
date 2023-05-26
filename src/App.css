@@ -189,10 +189,12 @@ body {
 }
 
 .footer p {
+  color: white;
   position: relative;
   cursor: default;
   width: fit-content;
   font-size: 1.4rem;
+  user-select: none;
 }
 
 .footer p:hover {
