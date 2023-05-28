@@ -92,6 +92,7 @@ body {
   padding: 0 3vh;
   font-size: 6vw;
   text-size-adjust: auto;
+  filter: blur(0.5px);
 }
 
 .verse-content-body p {
