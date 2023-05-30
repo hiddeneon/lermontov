@@ -9,8 +9,8 @@ import VerseContainer from "../components/VerseContainer";
 
 export default function Stikh() {
 
-    let { verseId } = useParams();
-    let verseElementNumber = poemsData.findIndex(({ URLTitle }) => URLTitle === verseId);
+    const { verseId } = useParams();
+    const verseElementNumber = poemsData.findIndex(({ URLTitle }) => URLTitle === verseId);
     useDocumentTitle(poemsData[verseElementNumber].title);
 
     const previous = {
