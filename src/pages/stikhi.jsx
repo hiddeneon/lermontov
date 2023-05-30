@@ -9,12 +9,7 @@ export default function Stikhi() {
     return (
         <div className="verse-list-container">
             <PoemsByPeriod poemsSourceFile={poemsData} periodName={"Ранние произведения"} />
-            <div className="period-container">
-                <h2>Позднее творчество</h2>
-            </div>
-            <div className="period-container">
-                <h2>Стихотворения разных лет</h2>
-            </div>
+            <PoemsByPeriod poemsSourceFile={poemsData} periodName={"Поздний период"} />
         </div>
     );
 };
