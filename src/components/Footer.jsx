@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Year from "./year";
+import Year from "./Year";
 
 export default function Footer() {
 
